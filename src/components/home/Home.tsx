@@ -24,7 +24,8 @@ function Home() {
           <Link className="bg-jaguar-400
            text-neutral-50 py-5 px-20 text-2xl
             rounded-lg uppercase font-bold
-            cursor-pointer">projects</Link>
+            cursor-pointer hover:scale-105 shadow-lg 
+            ease-in-out duration-300" to="about">projects</Link>
     </div>
   </Parallax></section>
   )

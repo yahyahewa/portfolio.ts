@@ -41,7 +41,7 @@ function Links({ isOpen, setIsOpen }) {
       <Link
         className={`uppercase text-lg md:text-base
          mx-5 cursor-pointer font-medium
-         text-neutral-500`}
+         text-neutral-500 hover:text-jaguar-400 ease-in-out duration-300`}
         spy={spy}
         smooth={smooth}
         offset={offset}
