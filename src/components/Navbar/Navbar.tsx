@@ -5,8 +5,9 @@ import Logo from "./Logo"
 function Navbar() {
     const [isOpen,setIsOpen]= useState(true)
   return (
-    <nav className={`flex px-5 py-2 md:px-8 md:py-4 lg:px-10 border-b w-full
-     items-center justify-between`}>
+    <nav className={`flex px-5 py-2 md:px-8
+     md:py-4 lg:px-10 border-b w-full
+     items-center justify-between z-[10000] fixed bg-white`}>
         <Logo/>
         <div className="flex">
         <Links isOpen={isOpen} setIsOpen={setIsOpen}/>
