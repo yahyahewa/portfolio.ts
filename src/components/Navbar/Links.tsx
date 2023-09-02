@@ -23,6 +23,14 @@ function Links({ isOpen, setIsOpen }) {
       smooth: true,
       offset: 50,
       duration: 500,
+      to: "Skills", // Change this to the appropriate ID
+      title: "skills",
+    },
+    {
+      spy: true,
+      smooth: true,
+      offset: 50,
+      duration: 500,
       to: "projects", // Change this to the appropriate ID
       title: "projects",
     },
