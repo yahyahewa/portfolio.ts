@@ -6,7 +6,7 @@ function Home() {
     <section id="home" className="text-center">
     <Parallax strength={500} >
     <div className='mt-26 font-sans min-h-screen
-     bg-neutral-100 flex flex-col
+      flex flex-col 
      items-center justify-center gap-y-10 text-center px-5'>
       <h1 className="text-[41px] sm:text-[54px] 
       md:text-5xl lg:text-[70px]
