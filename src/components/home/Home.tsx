@@ -21,7 +21,12 @@ function Home() {
              project management, customer relations, and
               creative problem-solving, 
            always eager for new programming challenges. </p>
-          <Link className="bg-jaguar-400
+          <Link
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500} 
+          className="bg-jaguar-400
            text-neutral-50 py-5 px-20 text-2xl
             rounded-lg uppercase font-bold
             cursor-pointer hover:scale-105 shadow-lg 

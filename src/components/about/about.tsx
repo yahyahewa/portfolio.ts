@@ -32,8 +32,12 @@ function About() {
          <p className="w-[95%] md:w-3/4 lg:w-2/3 text-neutral-500
           text-[17px]">
             Explore my portfolio to discover some of the 
-            <Link to="projects" className="border-b mx-1 pb-[1px]
-             border-jaguar-500 cursor-pointer text-jaguar-400 uppercase">
+            <Link 
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500} to="projects" className="border-b mx-1 pb-[1px]
+             border-neutral-500 cursor-pointer text-neutral-500 uppercase">
             Projects 
             </Link>
              that showcase my skills and commitment to excellence.</p>
@@ -50,7 +54,7 @@ function About() {
           text-[17px]">
            I'm passionate about sharing my knowledge
             with the Dev Community. On my <a className="border-b pb-[1px]
-             border-jaguar-500 mr-1 text-jaguar-400 uppercase"
+             border-neutral-500 mr-1 text-neutral-500 uppercase"
             href="https://www.linkedin.com/in/yahya-hiwa-781927198?fbclid=IwAR17jl2-UsPU_w_S7ZFzYg8V4IjjraVc5QFp9DD-aVJsCSPrlHnItvL5DjY&original_referer=https%3A%2F%2Fl.facebook.com%2F">
             LinkedIn
             </a>
