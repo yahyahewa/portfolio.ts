@@ -1,5 +1,4 @@
 import { Parallax } from "react-parallax"
-import "./style.css"
 import greenexchange from "../../assets/images/Untitled_design-removebg-preview.png"
 import bikra from"../../assets/images/bikra.png"
 import krdlogo from "../../assets/images/krdgov.png"
