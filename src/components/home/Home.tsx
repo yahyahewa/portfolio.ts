@@ -30,7 +30,7 @@ function Home() {
            text-neutral-50 py-5 px-20 text-2xl
             rounded-lg uppercase font-bold
             cursor-pointer hover:scale-105 shadow-lg 
-            ease-in-out duration-300" to="about">projects</Link>
+            ease-in-out duration-300" to="projects">projects</Link>
     </div>
   </Parallax></section>
   )
