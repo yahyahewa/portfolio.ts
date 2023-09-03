@@ -20,7 +20,7 @@ function Projects() {
           shadow-md"></div>
           </div>
 
-      <section className="flex flex-col gap-y-10 lg:gap-y-0 px-10">
+      <section className="flex flex-col gap-y-10 px-10">
         <article className="flex flex-col justify-center items-center lg:flex-row gap-x-10">
           <div className="w-full lg:w-1/2 lg:p-12 xl:p-20 object-contain overflow-hidden">
             <img src={greenexchange}alt="project image" className="w-full h-full" />
