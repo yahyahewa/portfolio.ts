@@ -42,7 +42,7 @@ function Projects() {
             <img src={bikra}alt="project image" className="w-full h-full" />
           </div>
           <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start gap-y-10 justify-center">
-            <h3 className="pt-5 lg:pd-0 text-center lg:text-left font-bold text-neutral-500 text-3xl">Bikra E-Commerce</h3>
+            <h3 className="pt-5 lg:pd-0 text-center lg:text-left font-bold text-neutral-500 text-3xl">Bikra</h3>
             <p className="w-full text-lg text-center lg:text-left">
             I spearheaded the development of 'Bikra,' an e-commerce website catering to a wide range of online shoppers. My role involved building a robust infrastructure, implementing e-commerce features, and ensuring a user-friendly interface.
             </p>
