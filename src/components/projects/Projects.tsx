@@ -12,7 +12,7 @@ function Projects() {
     <section id="projects" className="pt-40 font-sans min-h-screen">
     <Parallax strength={500} >
         <section className="flex flex-col items-center justify-center">
-    <div className="flex flex-col justify-center items-center gap-10">
+    <div className="flex flex-col justify-center items-center gap-10 my-10">
       <h1 className="uppercase text-neutral-500 font-bold
         text-4xl">
         my projects
