@@ -3,7 +3,7 @@ import Links from "./Links"
 import Logo from "./Logo"
 
 function Navbar() {
-    const [isOpen,setIsOpen]= useState(true)
+    const [isOpen,setIsOpen]= useState<boolean>(true)
   return (
     <nav className={`flex px-5 py-2 md:px-8
      md:py-4 lg:px-10 border-b w-full
