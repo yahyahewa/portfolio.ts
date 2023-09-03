@@ -6,8 +6,7 @@ function About() {
     <Parallax strength={500} >
     <section className="min-h-screen flex flex-col justify-center gap-y-10">
         <article className="flex flex-col items-center gap-y-7">
-        <h1 className="
-        uppercase text-neutral-500 font-bold
+        <h1 className="uppercase text-neutral-500 font-bold
         text-4xl">
         about me
         </h1>

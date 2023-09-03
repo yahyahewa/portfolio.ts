@@ -58,6 +58,9 @@ function Skills() {
                <h1 className="text-xl text-neutral-600 bg-jaguar-200
                shadow-md hover:scale-105 ease-in-out duration-300 cursor-default
                 px-4 py-2 font-bold rounded-md">JQuery</h1>
+                <h1 className="text-xl text-neutral-600 bg-jaguar-200
+                shadow-md hover:scale-105 ease-in-out duration-300 cursor-default
+                 px-4 py-2 font-bold rounded-md">ASP.NET</h1>
                   <h1 className="text-xl text-neutral-600 bg-jaguar-200
                   shadow-md hover:scale-105 ease-in-out duration-300 cursor-default
                    px-4 py-2 font-bold rounded-md">Tailwind</h1>
