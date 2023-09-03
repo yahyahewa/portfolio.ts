@@ -1,5 +1,6 @@
 import { Parallax } from "react-parallax"
 import { useState } from 'react';
+import { ChangeEvent, FormEvent } from 'react';
 
 interface UserState {
   name: string;
@@ -15,13 +16,14 @@ const initialFormData: UserState = {
 
 function Projects() {
   const [formData, setFormData] = useState<UserState>(initialFormData);
-  const handleData = (e)=>{
-    setFormData({...formData,[e.target.name]:e.target.value})
-  }
-  const handleSubmit = (e)=>{
+  const handleData = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+  
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setFormData({name:"",email:"",message:""})
-  }
+    setFormData({ name: "", email: "", message: "" });
+  };
   return (
     <section id="contact" className="pt-40 font-sans min-h-screen">
     <Parallax strength={500} >
