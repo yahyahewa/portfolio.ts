@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar/Navbar"
+import Footer from "../components/footer/Footer"
 import HomeComp from "../components/home/Home"
 import About from "./About"
 import Contact from "./Contact"
@@ -13,6 +14,7 @@ function Home() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </main>
   )
 }
