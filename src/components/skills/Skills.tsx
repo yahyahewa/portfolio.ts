@@ -5,7 +5,7 @@ function Skills() {
     <section id="Skills" className="text-center">
     <Parallax strength={500} >
     <article className="min-h-screen flex flex-col items-center justify-center gap-y-7">
-        <h1 className="
+        <h1 className="pt-20 lg:pt-0 
         uppercase text-neutral-500 font-bold
         text-4xl">
         my Skills
